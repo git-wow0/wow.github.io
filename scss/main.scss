@@ -1,0 +1,25 @@
+@import "normalize.scss";
+@import "font.scss";
+$yellow: #f9b43b;
+$red:#e45028;
+
+*{
+    box-sizing: border-box;
+}
+
+@import "../blocks/hero.scss";
+@import "../blocks/section.scss";
+@import "../blocks/header.scss";
+@import "layout.scss";
+@import "../blocks/nav.scss";
+@import "../blocks/btn.scss";
+
+
+@import "../blocks/best_bl.scss";
+
+@import "../blocks/reviews.scss";
+
+@import "../blocks/fixed_menu.scss";
+
+
+

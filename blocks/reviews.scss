@@ -1,0 +1,35 @@
+.reviews_list{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.reviews_item{
+    width: 25%;
+    height: 50%;
+    background: center center / cover no-repeat;
+    position: relative;
+    
+ 
+    filter: grayscale(100%);
+    &:hover{
+        .reviews_hover{
+            opacity: 1;
+        }
+    }
+}
+.reviews_hover{
+    color:#fff;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom:0;
+    background: rgba($color: #444646, $alpha: .5);
+    padding: 50px 19px 19px;
+    opacity: 0;
+    transition: opacity .3s;
+}

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Gagalin-Regular";
+  src: url("D:uildontsGagalin-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Lifehack Medium";
+  src: url("./Макет _burgers_/fonts/Lifehack Medium.otf") format("oft");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url("./Макет _burgers_/fonts/Ubuntu-Regular.ttf") format("oft");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu-B";
+  src: url("./Макет _burgers_/fonts/Ubuntu-B.ttf") format("oft");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu-Light";
+  src: url("./fonts/Ubuntu-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu-Medium";
+  src: url("./Макет _burgers_/fonts/Ubuntu-Medium.ttf") format("oft");
+  font-weight: 500;
+  font-style: normal; }

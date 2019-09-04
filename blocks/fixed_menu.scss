@@ -1,0 +1,40 @@
+
+.fixed-menu{
+position: fixed;
+top: 95px;
+right: 53px;
+}
+
+
+.fixed-menu_item{
+list-style: none;
+width: 16px;
+&:hover{
+.fixed-menu__dot{
+border: 1px solid #fff;
+}
+}
+}
+.fixed-menu__dot{
+width: 16px;
+height: 16px;
+border-radius: 50%;
+border: 1px solid transparent;
+position: relative;
+display: block;
+
+&:before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+transform: translate(-50%, -50%); 
+}
+&:last-child{
+    margin-bottom: 0;
+}
+}

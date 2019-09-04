@@ -1,0 +1,46 @@
+.section_best{
+    background: url( '../img/bg/bg.jpg' ) center center/ cover no-repeat;
+}
+.title_best{
+@include gagalin;
+line-height: 1.2;
+    margin-bottom: 20px;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    text-align: center;
+color: black;
+}
+.best_list{
+    display: flex;
+    align-items: center;
+}
+.best_item{
+    flex:1;
+
+    margin-right: 35px;
+    text-align: center;
+    display: inline;	
+		list-style: none;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.best_desc{
+    
+p{
+    font-family: 'Ubuntu-Light';
+    color: #2f3234;
+    font-size:15px;
+    font-family: 'Ubuntu-Light';
+    line-height: 1.8;
+    padding: 0 10px;
+    text-align: center;
+}
+}
+.best_title{
+    font-size: 24px;
+    margin-bottom: 33px;
+    @include lifehack;
+    color: black;
+
+}

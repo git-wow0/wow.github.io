@@ -1,0 +1,9 @@
+.btn{
+    padding: 12px 15px;
+    border-radius: 5px;
+    background: $red;
+    text-transform: uppercase;
+    @include ubuntu;
+    color: #fff;
+    font-size: 13px;
+}
