@@ -13,7 +13,12 @@
  &--non-centered{
  justify-content: flex-start;
  background-image: url("../img/backgr1.jpg");
+ background-size: cover;
  }
+ &--best{
+    background: url( '../img/bg/bg.jpg' ) center center/ cover no-repeat;
+}
+
  &--reveiws{
     justify-content: flex-start;
 

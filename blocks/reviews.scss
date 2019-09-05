@@ -20,6 +20,23 @@
             opacity: 1;
         }
     }
+.reviews_title{
+    box-sizing: border-box;
+    outline: none;
+    font-family: verdana;
+    position: relative;
+    padding: 40px 20px;
+}
+.reviews_text{
+    font-family: 'Ubuntu-Light';
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-height: 295px;
+    overflow: hidden;
+}
 }
 .reviews_hover{
     color:#fff;
