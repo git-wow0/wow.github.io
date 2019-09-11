@@ -1,0 +1,36 @@
+.form_elem{
+    display:flex;
+}
+.form_column{
+ flex:1;
+margin-right: 20px;
+&:last-child{
+    margin-right: 0;
+}
+}
+.form_row{
+    display: flex;
+}
+.form_block{
+    flex:1;
+    margin-right: 10px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.form_input{
+background: #fff;
+border-radius: 5px;
+font-size: 14px;
+border: none;
+width:100%;
+&--textarea{
+ resize: none;
+ height: 110px;
+ border-width: 1px;
+ border-radius: 5px;
+padding: 10px;
+font-size: 14px;
+
+}
+}
