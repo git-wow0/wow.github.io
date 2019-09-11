@@ -325,6 +325,12 @@ template {
   font-weight: 500;
   font-style: normal; }
 
+@font-face {
+  font-family: "Ubuntu-Light";
+  src: url("../fonts/Ubuntu-Light.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }

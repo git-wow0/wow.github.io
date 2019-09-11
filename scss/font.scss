@@ -17,6 +17,12 @@ font-style: normal;
                     font-weight: 500;
                     font-style: normal;
                     }
+                    @font-face{
+                        font-family: "Ubuntu-Light";
+                        src: url("../fonts/Ubuntu-Light.woff") format('woff'); 
+                        font-weight: 500;
+                        font-style: normal;
+                        }
 @mixin gagalin() {
     font-family: 'Gagalin-Regular',  Helvetica, sans-serif; 
 } 
