@@ -645,6 +645,9 @@ a {
   background: url("../img/bg/order.jpg") center center/cover no-repeat;
   color: #fff; }
 
+input {
+  width: 100%; }
+
 .form_elem {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -662,25 +665,51 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  .form_row--btn {
+    margin-top: 20px; }
 
 .form_block {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  margin-right: 10px; }
+  margin-right: 20px; }
   .form_block:last-child {
     margin-right: 0; }
+  .form_block--rad {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px; }
+
+.form_block-title {
+  color: #fff;
+  margin-bottom: 5px;
+  font-family: verdana; }
 
 .form_input {
-  background: #fff;
+  width: 100%;
+  border-width: 1px;
+  border-color: #d1cfcb;
+  border-style: solid;
   border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
   font-size: 14px;
-  border: none;
-  width: 100%; }
+  background: #fff; }
   .form_input--textarea {
     resize: none;
     height: 110px;
     border-width: 1px;
     border-radius: 5px;
     padding: 10px;
-    font-size: 14px; }
+    font-size: 14px;
+    width: 100%;
+    border-color: #d1cfcb;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #fff; }
+
+.pay {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: initial;
+  cursor: default; }
